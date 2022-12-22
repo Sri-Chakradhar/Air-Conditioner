@@ -1,0 +1,14 @@
+{
+  "name": "air-conditioner",
+  "version": "1.0.0",
+  "description": "Air Conditioner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chakradhar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

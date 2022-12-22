@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - Cart</title>
+    <style>
+        section{
+            padding: 60px 0;
+        }
+        nav{
+            background-color: aquamarine;
+        }
+    </style>
+    <link rel="stylesheet" href="vendors\bootsrap.min.css">
+</head>
+<body>
+    <script src="vendors\bootstrap.min.js" async defer></script>
+    
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container xxl">
+            <a href="index.html" class="navbar-brand">
+                <span class="fw-bold text-secondary" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    <img src="https://th.bing.com/th/id/OIP.3eKgGISBoiSTPa5lrxZErgHaFL?w=246&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" class="img-fluid rounded-circle" style="height: 50px; " alt="">
+                    E-Cart
+                </span>
+            </a>
+            <!-- toggle button for mobile nav-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collpase"
+            data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item fw-light text-secondary me-2">
+                        <a href="#topics" class="nav-link"> About The Product </a>
+                    </li>
+                    <li class="nav-item fw-light text-secondary me-2 d-md-none">
+                        <a href="#topic" class="nav-link"> Price </a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="#buy" class="btn btn-success rounded-start nav-link" style="color: aliceblue;">Login Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<section id="Order">
+    <div class="container-lg">
+        <div class="row justify-content-start">
+            <div class="col-lg col-9 col-xl-4">
+                <label for="address"><p class="display-7"> Your Address </p></label>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-baseline">
+            <input type="text" class="form-label" placeholder="eg. house.no-95/78,argonat tower,Sydney,Australia">
+        </div>
+    </div>
+</section>
+</body>
+</html>
